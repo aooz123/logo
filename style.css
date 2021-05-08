@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+    
+html {
+  font-size: 16px;
+}
+
+body {
+    padding: 30px;
+    margin: 30px;
+  font-family: 'Arial Narrow';
+    text-align: center;
+    background: #D3D3D3;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+     background: white;
+      font-size: 150%;
+      align-items: center;
+       
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+     background: white;
+    font-size: 300%;
+      align-items: center;
+    
+  }
+}
+   
+.portfolio {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .pictures {
+    width: 150%;  
+      display: grid;
+      margin: 10px 10px 10px 10px;
+     
+    
+     
+      
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .pictures {
+    width: 300%; 
+      display: grid;
+      margin: 10px 10px 10px 10px;
+      
+    
+      
+      
+  }
+}
+  
+
+.navbar{
+    width: 100%;
+    display: inline-block;
+    align-self: center;
+    position: relative;
+    
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    margin: 0;
+    float: center;
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+ .logo {
+    float:center;
+      text-align: center;
+      
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    float:center;
+      text-align: center;
+    
+  }
+}
+
+nav{
+    
+   
+    align-self: center;
+    
+    
+       }
+  
+@media only screen and (max-width: 768px) {
+ nav {
+    float:center;
+      display: grid;
+      text-align: left;
+      font-size: 12px;
+     padding: 50px 250px;
+     margin: 10px 10px 10px 10px;
+     
+    
+      
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    float:center;
+       display: grid;
+      text-align: left;
+      font-size: 12px;
+      padding: 50px 250px ;
+      margin: 10px 10px 10px 10px;
+      
+     
+    
+  }
+}
+
+
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font: 'bold';
+}
+
+nav ul li a:hover{
+    color: #B2EBFC;
+}
+
+
+.para{
+   
+    width: 800px;
+    padding: 30px, 30px, 50px;
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    text-align: center;
+    background: rgba(0,160,160,.8);
+   
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+  .para {
+    width: 50%;
+    margin: 0, auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .para {
+    width: 100%;
+    
+  }
+}
+
+      
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+    position: relative;
+   align-self: left;
+   
+}
+    
+
+@media only screen and (max-width: 768px) {
+  button {
+    margin: 10px 10px 10px 10px;
+}
+}
+    
+@media only screen and (max-width: 480px) {
+  button {
+    margin: 10px 10px 10px 10px;
+    
+  }
+}
+
+button img{
+    width: 30px;
+    display: none;
+    
+    
+   
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: inline-flex;
+    align-content: left;
+    justify-content: space-between;
+    
+}
+   
+
+.addbtn img{
+    width: 90px;
+    margin-bottom: 5px;
+    padding: 5px 5px 70px 5px;
+    position: relative;
+    
+    
+    
+}
+
+.addbtn{
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+
+.contact-details{
+  padding: 40px;
+}
+
+.contact-form {
+  padding: 40px;
+}
+
+.contact-form input {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-form textarea {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+  
+.social-links img{
+    height: 15px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+   
+.social-links{
+    
+    text-align: center;
+}
+
+.row {
+  clear:both;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-clear {
+  clear: both;
+}
+
